@@ -9,7 +9,7 @@ Please do the following **steps in this order**:
 1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
    - **Remember** to use the file linked above
    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 3. When you open your first pull request you should see the result of the GitHub actions checks:
 
@@ -58,7 +58,7 @@ A customizable linting tool that helps you improve your site's accessibility, sp
    ```
    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
 2. Copy [.hintrc](.hintrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 4. Run
    ```
@@ -79,7 +79,7 @@ A mighty, modern linter that helps you avoid errors and enforce conventions in y
    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
 
 2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
 5. Fix linter errors.
@@ -90,7 +90,7 @@ A mighty, modern linter that helps you avoid errors and enforce conventions in y
 If you completed the Sass lessons you may prefer to work with SCSS files, if that's the case you need to perform
 a few modifications to the linter configuration files.
 
-1. In the file `.github/workflows/linters.yml` [line 48](https://github.com/microverseinc/linters-config/blob/master/html-css/.github/workflows/linters.yml#L48) replace `"**/*.{css,scss}"` with `"**/*.scss"`
+1. In the file `.github/workflows/linters.yml` [line 48](https://github.com/Chill Academyinc/linters-config/blob/master/html-css/.github/workflows/linters.yml#L48) replace `"**/*.{css,scss}"` with `"**/*.scss"`
 2. Use `npx stylelint "**/*.scss"` to lint you SCSS files and not the generated CSS
 
 Once you've done the previous steps you can focus on your SCSS files and not in fixing the generated CSS output
