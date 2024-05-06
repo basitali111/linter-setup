@@ -15,7 +15,7 @@ Please do the following **steps in this order**:
 1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
     - **Remember** to use the file linked above
     - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
     - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 3. When you open your first pull request you should see the result of the GitHub Actions:
 
@@ -43,7 +43,7 @@ node_modules/
     *not sure how to use Gemfile? Read [this](https://bundler.io/v1.15/guides/bundler_setup.html)*.
 2. Run `bundle install`.
 3. Copy [.rubocop.yml](./.rubocop.yml) to the root directory of your project
-4. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+4. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
     - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 5. Run `rubocop`.
 6. Fix linter errors.
@@ -60,7 +60,7 @@ node_modules/
    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
 
 2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your tem - which is a group of all Microverse students.**
+3. **Do not make any changes in config files - they represent style guidelines that you share with your tem - which is a group of all Chill Academy students.**
    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
 5. Fix linter errors.
@@ -80,4 +80,4 @@ Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/w
 ## Troubleshooting
 
 - If you are building an API only Rails application
-For API only Rails application you can remove the Stylelint config. To do so remove line no. [23](https://github.com/microverseinc/linters-config/blob/f0c812753d0418288c404ed4a441a2e7370e9f4e/ror/.github/workflows/linters.yml#L23) to [36](https://github.com/microverseinc/linters-config/blob/f0c812753d0418288c404ed4a441a2e7370e9f4e/ror/.github/workflows/linters.yml#L36) from the [linter.yml]((https://github.com/microverseinc/linters-config/blob/master/ror/.github/workflows/linters.yml)) file.
+For API only Rails application you can remove the Stylelint config. To do so remove line no. [23](https://github.com/Chill Academyinc/linters-config/blob/f0c812753d0418288c404ed4a441a2e7370e9f4e/ror/.github/workflows/linters.yml#L23) to [36](https://github.com/Chill Academyinc/linters-config/blob/f0c812753d0418288c404ed4a441a2e7370e9f4e/ror/.github/workflows/linters.yml#L36) from the [linter.yml]((https://github.com/Chill Academyinc/linters-config/blob/master/ror/.github/workflows/linters.yml)) file.
