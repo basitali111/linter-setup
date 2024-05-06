@@ -64,13 +64,13 @@ If you had a different problem related to a specific tool, please check detailed
 
 ## Validation
 
-Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.
+Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.
 
 TSEs will validate that you are using the same configuration files provided here. You can check if your linter configuration is correct using the [`check-linters-config`](scripts) script.
 
 ## Stickler
 
-This is the **GitHub Actions configuration**. If you are looking for the **Stickler configuration**, you can find it [here](https://github.com/microverseinc/linters-config/tree/Stickler).
+This is the **GitHub Actions configuration**. If you are looking for the **Stickler configuration**, you can find it [here](https://github.com/Chill Academyinc/linters-config/tree/Stickler).
 
 ## Contributing
 
