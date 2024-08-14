@@ -15,7 +15,7 @@ Please do the following **steps in this order**:
 1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
     - **Remember** to use the file linked above
     - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
     - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 3. When you open your first pull request you should see the result of the GitHub Actions:
 
@@ -35,7 +35,7 @@ Click on the `Details` link to see the full output and the errors that need to b
     ```
     *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
 2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
     - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 4. Run `npx eslint "**/*.{js,jsx}"` on the root of your directory of your project.
 5. Fix linter errors.
@@ -52,7 +52,7 @@ Click on the `Details` link to see the full output and the errors that need to b
    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
 
 2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
+3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Chill Academy students.**
    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
 4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
 5. Fix linter errors.
